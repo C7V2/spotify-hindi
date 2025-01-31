@@ -27,7 +27,6 @@ new Vue({
         { background: "#b2beb5", player: "#2f4f4f" },
         { background: "#1E441E", player: "#152614" },
         { background: "#335C81", player: "#274060" },
-        { background: "#9FA0FF", player: "#7F87F0" },
         { background: "#86DEB7", player: "#63B995" },
         { background: "#5C5552", player: "#433633" },
         { background: "#526760", player: "#374B4A" },
@@ -40,10 +39,6 @@ new Vue({
         { background: "#635380", player: "#49306B" },
         { background: "#49306B", player: "#462521" },
         { background: "#6096BA", player: "#274C77" },
-        { background: "#368F8B", player: "#368F8B" },
-        { background: "#A7BBEC", player: "#9097C0" },
-        { background: "#85BDA6", player: "#3E885B" },
-        { background: "#B79CED", player: "#957FEF" },
         { background: "#EAEAEA", player: "#C0D6DF" },
       ],
       currentColorIndex: 0,
@@ -70,6 +65,102 @@ new Vue({
           cover: "https://c.saavncdn.com/226/Afsanay-Hindi-2021-20220503024034-500x500.jpg",
           source: "https://aac.saavncdn.com/226/04613b442992efc18400f76e70f55a7c_160.mp4",
           url: "https://open.spotify.com/track/05sqcYfU2wMlKwPVJ0rotq?si=4e850a474fff493d",
+          favorited: false
+        },
+        {
+          name: "BTDT (Been There Done That)",
+          artist: "Bilal Saeed, Talha Anjum",
+          cover: "https://c.saavncdn.com/699/BTDT-Been-There-Done-That-Punjabi-2024-20241015092333-500x500.jpg",
+          source: "https://aac.saavncdn.com/699/33a354430e187efa9b2fd50b1369f30d_160.mp4",
+          url: "https://open.spotify.com/track/2jJHEFJG33RYeVhCZEbZ8u?si=495a0a789e684eb5",
+          favorited: false
+        },
+        {
+          name: "Heartbreak Kid",
+          artist: "Talha Anjum, Umair",
+          cover: "https://c.saavncdn.com/156/My-Terrible-Mind-Hindi-2024-20241120081544-500x500.jpg",
+          source: "https://aac.saavncdn.com/156/d5e940302defdb31b01f3229f2cbccd0_160.mp4",
+          url: "https://open.spotify.com/track/1ktAfHym69UrvWIgx2qPPm?si=68892da3cb63480a",
+          favorited: false
+        },
+        {
+          name: "Downers At Dusk",
+          artist: "Talha Anjum",
+          cover: "https://c.saavncdn.com/866/Open-Letter-English-2023-20230211190809-500x500.jpg",
+          source: "https://aac.saavncdn.com/866/c7d4741f0f3bffe30f5a4aad4d6b072e_160.mp4",
+          url: "https://open.spotify.com/track/5yqr66QIdRvhh5cxjgpkJh?si=11abbe72578e4df2",
+          favorited: false
+        },
+        {
+          name: "Me & You",
+          artist: "Jokhay, Talha Anjum, Talhah Yunus",
+          cover: "https://c.saavncdn.com/202/Therapy-Urdu-2023-20240909161809-500x500.jpg",
+          source: "https://aac.saavncdn.com/202/82ebe247f2f588a4683602cd425d4899_160.mp4",
+          url: "https://open.spotify.com/track/7w2vvvow2gxPiz7xghMMOh?si=1eef0ca3111641da",
+          favorited: false
+        },
+        {
+          name: "Happy Hour",
+          artist: "Talha Anjum",
+          cover: "https://c.saavncdn.com/866/Open-Letter-English-2023-20230211190809-500x500.jpg",
+          source: "https://aac.saavncdn.com/866/0c410475bcafbd4d6fce6acee3b36bc8_160.mp4",
+          url: "https://open.spotify.com/track/3QbdShNwcXqKIk1xvGp8P8?si=6dac0192ea2340b3",
+          favorited: false
+        },
+        {
+          name: "Now & Then",
+          artist: "Jokhay, Talha Anjum",
+          cover: "https://c.saavncdn.com/929/Now-Then-English-2025-20250111165117-500x500.jpg",
+          source: "https://aac.saavncdn.com/929/c81ecc195e4b741321c9406ce3d4179c_160.mp4",
+          url: "https://open.spotify.com/track/6jLmfvFWtsfkYPz4iNjXeK?si=9ed9cd45aaca467e",
+          favorited: false
+        },
+        {
+          name: "Yaad",
+          artist: "Asim Azhar, Talha Anjum, Talhah Yunus",
+          cover: "https://c.saavncdn.com/294/Yaad-Urdu-2021-20210324134418-500x500.jpg",
+          source: "https://aac.saavncdn.com/294/7f9a1ef158fb02e22d7b06c7ad051ddf_160.mp4",
+          url: "https://open.spotify.com/track/7jdHemolm8HmaireObpqXt?si=c8c2e558bc9145c5",
+          favorited: false
+        },
+        {
+          name: "Dont Mind (feat. Rap Demon)",
+          artist: "Young Stunners, Talha Anjum, Talhah Yunus",
+          cover: "https://c.saavncdn.com/455/Dont-Mind-feat-Rap-Demon-Hindi-2020-20220503024028-500x500.jpg",
+          source: "https://aac.saavncdn.com/455/b2f073e2120c24f4fba3141fb221b8b3_160.mp4",
+          url: "https://open.spotify.com/track/4Tol72m7hzEseRnsDc3SWw?si=d79feac0d6a64f98",
+          favorited: false
+        },
+        {
+          name: "Bikhra",
+          artist: "Abdul Hannan & Rovalio",
+          cover: "https://c.saavncdn.com/297/Bikhra-Hindi-2022-20220209231357-500x500.jpg",
+          source: "https://aac.saavncdn.com/297/e3ba03fe076e99c86176acfb1dbe6e52_160.mp4",
+          url: "https://open.spotify.com/track/0OdztoASgKBBNcAgtErk0X?si=2845675154314c59",
+          favorited: false
+        },
+        {
+          name: "Channa Ve",
+          artist: "Rahul Sathu, Talha Anjum",
+          cover: "https://c.saavncdn.com/137/Channa-Ve-Hindi-2024-20240904130626-500x500.jpg",
+          source: "https://aac.saavncdn.com/137/02e29efcbfaa3dc902437824bc561971_160.mp4",
+          url: "https://open.spotify.com/track/4ekflmlEIqeYEgZYx2p4xy?si=f414fa3b92434d0e",
+          favorited: false
+        },
+        {
+          name: "COME THROUGH",
+          artist: "Umair ft. Abdullah Maharvi, Talha Anjum",
+          cover: "https://c.saavncdn.com/032/ROCKSTAR-WITHOUT-A-GUITAR-Urdu-2024-20240521125345-500x500.jpg",
+          source: "https://aac.saavncdn.com/032/6d89d49deb568f5042510ab35b2a04e8_160.mp4",
+          url: "https://open.spotify.com/track/4yNtO1F3flXZ4v3Ry1MzuP?si=31b1d2b15b7744e5",
+          favorited: false
+        },
+        {
+          name: "Why",
+          artist: "Young Stunners, Talha Anjum, Talhah Yunus",
+          cover: "https://c.saavncdn.com/506/Why-Hindi-2022-20220503024022-500x500.jpg",
+          source: "https://aac.saavncdn.com/506/0fa7017859daada3be40edd3722ccee1_160.mp4",
+          url: "https://open.spotify.com/track/6712goAF36pcQ2k51UwbIe?si=a7cb0e7c4ee841f1",
           favorited: false
         },
         
